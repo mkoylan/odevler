@@ -1,0 +1,94 @@
+void setup(){
+  size(640,480);
+}
+
+void draw(){          
+
+ //start custom shape
+beginShape();
+vertex(252,172);
+vertex(386,172);
+vertex(386,307);
+vertex(252,307);
+endShape(CLOSE);
+
+beginShape(); //gövdealt
+vertex(263,307);
+vertex(377,307);
+vertex(377,324);
+vertex(263,324);
+endShape(CLOSE);
+
+beginShape(); //bacak1
+vertex(265,324);
+vertex(281,324);
+vertex(281,400);
+vertex(265,400);
+endShape(CLOSE);
+
+beginShape(); //bacak2
+vertex(358,324);
+vertex(374,324);
+vertex(374,400);
+vertex(358,400);
+endShape(CLOSE);
+
+beginShape(); //ayak1
+vertex(228,400);
+vertex(281,400);
+vertex(281,412);
+vertex(228,412);
+endShape(CLOSE);
+
+beginShape(); //ayak2
+vertex(358,400);
+vertex(411,400);
+vertex(411,412);
+vertex(358,412);
+endShape(CLOSE);
+
+beginShape(); //kol1
+vertex(231,185);
+vertex(242,191);
+vertex(193,267);
+vertex(182,260);
+endShape(CLOSE);
+
+beginShape(); //kol1baglanti
+vertex(252,185);
+vertex(252,191);
+vertex(242,191);
+vertex(231,185);
+endShape(CLOSE);
+
+beginShape(); //kol2
+vertex(397,191);
+vertex(408,185);
+vertex(457,260);
+vertex(446,267);
+endShape(CLOSE);
+
+beginShape(); //kol2baglanti
+vertex(387,185);
+vertex(408,185);
+vertex(397,191);
+vertex(387,191);
+endShape(CLOSE);
+
+beginShape(); //boyun
+vertex(307,138);
+vertex(332,138);
+vertex(332,172);
+vertex(307,172);
+endShape(CLOSE);
+
+ellipse(318, 110, 72, 72);
+ellipse(300, 110, 20, 20);
+ellipse(330, 110, 20, 20);
+ellipse(330, 110, 10, 10);
+ellipse(300, 110, 10, 10);
+
+
+
+endShape(CLOSE); //close shape stroke
+ }
